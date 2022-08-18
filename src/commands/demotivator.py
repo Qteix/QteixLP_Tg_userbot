@@ -2,6 +2,7 @@ from src.misc import app
 from pyrogram import filters
 from loguru import logger
 from simpledemotivators import Demotivator
+import os
 
 """
 Делает демотиватор
@@ -22,3 +23,4 @@ async def demotivator(client,message):
     dem.create('downloads/dem.png',font_name='arial.ttf')
     filename = "demresult.jpg"
     await app.send_photo(chat_id=message.chat.id,photo=filename,reply_to_message_id=message.reply_to_message_id)
+    os.remove(filename)
