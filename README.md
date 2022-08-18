@@ -2,19 +2,19 @@
 ## Установка
 ### Windows and Linux
 ```shell script
-    git clone  https://github.com/Qteix/QteixLP_Tg_userbot.git
+git clone  https://github.com/Qteix/QteixLP_Tg_userbot.git
 ```
 
 Переходим в папку и прописываем
 ```shell script
-    python -r requirements.txt
+python -r requirements.txt
 ```
 
 Дальше заполняем `src/config.py`
 В поле `api_id и api_hash` вводим вводим свои данные, которые мы получили отсюда https://my.telegram.org/apps
 И запускаем скрипт
 ```shell script
-    py -m src
+py -m src
 ```
 
 ## Список комманд
