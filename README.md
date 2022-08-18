@@ -11,7 +11,7 @@ python -r requirements.txt
 ```
 
 Дальше заполняем `src/config.py`
-В поле `api_id и api_hash` вводим вводим свои данные, которые мы получили отсюда https://my.telegram.org/apps
+В поле `api_id и api_hash` вводим свои данные, которые мы получили отсюда https://my.telegram.org/apps
 И запускаем скрипт
 ```shell script
 py -m src
