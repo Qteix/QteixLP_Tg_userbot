@@ -5,7 +5,7 @@
 git clone  https://github.com/Qteix/QteixLP_Tg_userbot.git
 ```
 
-Переходим в папку и прописываем
+Переходим в папку и прописываем для установки зависимостей
 ```shell script
 python -r requirements.txt
 ```
